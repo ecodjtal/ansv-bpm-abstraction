@@ -1,0 +1,247 @@
+{
+  "export_version": "0.072",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "BPM",
+      "location": [
+        -140.40823364257812,
+        71.95022583007812
+      ],
+      "params": {
+        "float_": 140.0
+      },
+      "width": 140.0
+    },
+    "Float to Int": {
+      "bl_idname": "Float2IntNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "beats",
+      "location": [
+        726.5206909179688,
+        138.57479858398438
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float to Int.001": {
+      "bl_idname": "Float2IntNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        725.652099609375,
+        44.10343551635742
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "FPS",
+      "location": [
+        -133.82437133789062,
+        159.10693359375
+      ],
+      "params": {
+        "float_": 24.0
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNodeMK2",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        202.49742126464844,
+        38.22428894042969
+      ],
+      "params": {},
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        206.14476013183594,
+        194.5332794189453
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        36.72541046142578,
+        84.97466278076172
+      ],
+      "params": {
+        "items_": "DIV",
+        "y": 60.0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        380.2933044433594,
+        140.77943420410156
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        553.12451171875,
+        31.742841720581055
+      ],
+      "params": {
+        "items_": "DIV",
+        "y": 4.0
+      },
+      "width": 140.0
+    },
+    "Stethoscope MK2": {
+      "bl_idname": "SvStethoscopeNodeMK2",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        901.25390625,
+        15.590880393981934
+      ],
+      "params": {
+        "num_elements": 1,
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Stethoscope MK2.001": {
+      "bl_idname": "SvStethoscopeNodeMK2",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        902.7867431640625,
+        98.89697265625
+      ],
+      "params": {
+        "num_elements": 1,
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float",
+      0,
+      "Math.001",
+      0
+    ],
+    [
+      "Float.001",
+      0,
+      "Math",
+      0
+    ],
+    [
+      "Math.001",
+      0,
+      "Math",
+      1
+    ],
+    [
+      "Frame info",
+      0,
+      "Math.002",
+      0
+    ],
+    [
+      "Math",
+      0,
+      "Math.002",
+      1
+    ],
+    [
+      "Math.002",
+      0,
+      "Math.003",
+      0
+    ],
+    [
+      "Math.003",
+      0,
+      "Float to Int.001",
+      0
+    ],
+    [
+      "Float to Int.001",
+      0,
+      "Stethoscope MK2",
+      0
+    ],
+    [
+      "Math.002",
+      0,
+      "Float to Int",
+      0
+    ],
+    [
+      "Float to Int",
+      0,
+      "Stethoscope MK2.001",
+      0
+    ]
+  ]
+}
