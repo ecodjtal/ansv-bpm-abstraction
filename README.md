@@ -1,7 +1,7 @@
 Description
 ===========
 
-These are simple BPM abstractions for Animation node addon and Sverchok addon in Blender
+These are simple BPM abstractions for [Animation-nodes](https://github.com/JacquesLucke/animation_nodes) addon and [Sverchok](http://nikitron.cc.ua/sverchok_en.html) addon in Blender
 
 ![](screenshot.png)
 
