@@ -3,6 +3,8 @@ Description
 
 These are simple BPM abstractions for Animation node addon and Sverchok addon in Blender
 
+![](screenshot.png)
+
 Usage
 =====
 
